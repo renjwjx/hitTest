@@ -13,6 +13,8 @@
 		EED1DF171D95770C00CF04B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED1DF151D95770C00CF04B5 /* Main.storyboard */; };
 		EED1DF191D95770C00CF04B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED1DF181D95770C00CF04B5 /* Assets.xcassets */; };
 		EED1DF1C1D95770C00CF04B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED1DF1A1D95770C00CF04B5 /* LaunchScreen.storyboard */; };
+		EED1DFB41D96B9D800CF04B5 /* DemoTableviewCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EED1DFB31D96B9D800CF04B5 /* DemoTableviewCellTableViewCell.m */; };
+		EED1DFB71D96BC9500CF04B5 /* DemoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED1DFB61D96BC9500CF04B5 /* DemoTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		EED1DF181D95770C00CF04B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED1DF1B1D95770C00CF04B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EED1DF1D1D95770C00CF04B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED1DFB21D96B9D800CF04B5 /* DemoTableviewCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableviewCellTableViewCell.h; sourceTree = "<group>"; };
+		EED1DFB31D96B9D800CF04B5 /* DemoTableviewCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableviewCellTableViewCell.m; sourceTree = "<group>"; };
+		EED1DFB51D96BC9500CF04B5 /* DemoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoTableViewController.h; sourceTree = "<group>"; };
+		EED1DFB61D96BC9500CF04B5 /* DemoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,11 @@
 				EED1DF101D95770C00CF04B5 /* AppDelegate.m */,
 				EED1DF121D95770C00CF04B5 /* ViewController.h */,
 				EED1DF131D95770C00CF04B5 /* ViewController.m */,
+				EED1DFB21D96B9D800CF04B5 /* DemoTableviewCellTableViewCell.h */,
+				EED1DFB31D96B9D800CF04B5 /* DemoTableviewCellTableViewCell.m */,
 				EED1DF151D95770C00CF04B5 /* Main.storyboard */,
+				EED1DFB51D96BC9500CF04B5 /* DemoTableViewController.h */,
+				EED1DFB61D96BC9500CF04B5 /* DemoTableViewController.m */,
 				EED1DF181D95770C00CF04B5 /* Assets.xcassets */,
 				EED1DF1A1D95770C00CF04B5 /* LaunchScreen.storyboard */,
 				EED1DF1D1D95770C00CF04B5 /* Info.plist */,
@@ -151,7 +161,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EED1DFB41D96B9D800CF04B5 /* DemoTableviewCellTableViewCell.m in Sources */,
 				EED1DF141D95770C00CF04B5 /* ViewController.m in Sources */,
+				EED1DFB71D96BC9500CF04B5 /* DemoTableViewController.m in Sources */,
 				EED1DF111D95770C00CF04B5 /* AppDelegate.m in Sources */,
 				EED1DF0E1D95770C00CF04B5 /* main.m in Sources */,
 			);
@@ -312,6 +324,7 @@
 				EED1DF221D95770C00CF04B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
